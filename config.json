@@ -1,3 +1,5 @@
 {
-  "packageName": "seventilation_client"
+  "packageName": "seventilation_client",
+  "packageUrl": "https://github.com/epiehl/seventilation-client.git",
+  "packageVersion": "0.1.0"
 }

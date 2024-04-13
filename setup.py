@@ -13,7 +13,7 @@
 from setuptools import setup, find_packages  # noqa: H301
 
 NAME = "seventilation-client"
-VERSION = "1.0.0"
+VERSION = "0.1.0"
 # To install the library, run the following
 #
 # python setup.py install
@@ -28,7 +28,7 @@ setup(
     version=VERSION,
     description="SEC Smart API",
     author_email="",
-    url="",
+    url="https://github.com/epiehl/seventilation-client.git",
     keywords=["Swagger", "SEC Smart API"],
     install_requires=REQUIRES,
     packages=find_packages(),
