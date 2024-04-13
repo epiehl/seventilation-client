@@ -1,4 +1,4 @@
-# swagger_client.AreasApi
+# seventilation_client.AreasApi
 
 All URIs are relative to *https://api.sec-smart.app/v1*
 
@@ -20,13 +20,13 @@ Returns the device subobject areas for the URL-encoded device ID.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import seventilation_client
+from seventilation_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.AreasApi(swagger_client.ApiClient(configuration))
+api_instance = seventilation_client.AreasApi(seventilation_client.ApiClient(configuration))
 id = 'id_example' # str | 6-digit-long alphanumerical ID of the device to be adressed
 
 try:
@@ -69,14 +69,14 @@ Updates the name for the given area.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import seventilation_client
+from seventilation_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.AreasApi(swagger_client.ApiClient(configuration))
-body = swagger_client.AreasLabelBody() # AreasLabelBody | 
+api_instance = seventilation_client.AreasApi(seventilation_client.ApiClient(configuration))
+body = seventilation_client.AreasLabelBody() # AreasLabelBody | 
 id = 'id_example' # str | 6-digit-long alphanumerical ID of the device to be adressed
 
 try:
@@ -120,14 +120,14 @@ Sets the ventilation mode for the given area.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import seventilation_client
+from seventilation_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.AreasApi(swagger_client.ApiClient(configuration))
-body = swagger_client.AreasModeBody() # AreasModeBody | 
+api_instance = seventilation_client.AreasApi(seventilation_client.ApiClient(configuration))
+body = seventilation_client.AreasModeBody() # AreasModeBody | 
 id = 'id_example' # str | 6-digit-long alphanumerical ID of the device to be adressed
 
 try:
@@ -171,14 +171,14 @@ Sets a timed program for the given area.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import seventilation_client
+from seventilation_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.AreasApi(swagger_client.ApiClient(configuration))
-body = swagger_client.AreasTimeprogramBody() # AreasTimeprogramBody | 
+api_instance = seventilation_client.AreasApi(seventilation_client.ApiClient(configuration))
+body = seventilation_client.AreasTimeprogramBody() # AreasTimeprogramBody | 
 id = 'id_example' # str | 6-digit-long alphanumerical ID of the device to be adressed
 
 try:

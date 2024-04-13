@@ -1,4 +1,4 @@
-# swagger_client.SettingsApi
+# seventilation_client.SettingsApi
 
 All URIs are relative to *https://api.sec-smart.app/v1*
 
@@ -22,14 +22,14 @@ Change the time and date adjustments of your device.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import seventilation_client
+from seventilation_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.SettingsApi(swagger_client.ApiClient(configuration))
-body = swagger_client.SettingsDevicetimeBody() # SettingsDevicetimeBody | 
+api_instance = seventilation_client.SettingsApi(seventilation_client.ApiClient(configuration))
+body = seventilation_client.SettingsDevicetimeBody() # SettingsDevicetimeBody | 
 id = 'id_example' # str | 6-digit-long alphanumerical ID of the device to be adressed
 
 try:
@@ -73,14 +73,14 @@ If the maxRunTime is submitted only or the reset is set to false just the maxRun
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import seventilation_client
+from seventilation_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.SettingsApi(swagger_client.ApiClient(configuration))
-body = swagger_client.SettingsFilterBody() # SettingsFilterBody | 
+api_instance = seventilation_client.SettingsApi(seventilation_client.ApiClient(configuration))
+body = seventilation_client.SettingsFilterBody() # SettingsFilterBody | 
 id = 'id_example' # str | 6-digit-long alphanumerical ID of the device to be adressed
 
 try:
@@ -124,13 +124,13 @@ Returns the device subobject settings for the URL-encoded device ID.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import seventilation_client
+from seventilation_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.SettingsApi(swagger_client.ApiClient(configuration))
+api_instance = seventilation_client.SettingsApi(seventilation_client.ApiClient(configuration))
 id = 'id_example' # str | 6-digit-long alphanumerical ID of the device to be adressed
 
 try:
@@ -173,14 +173,14 @@ Set the sleep time in minutes.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import seventilation_client
+from seventilation_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.SettingsApi(swagger_client.ApiClient(configuration))
-body = swagger_client.SettingsSleeptimeBody() # SettingsSleeptimeBody | 
+api_instance = seventilation_client.SettingsApi(seventilation_client.ApiClient(configuration))
+body = seventilation_client.SettingsSleeptimeBody() # SettingsSleeptimeBody | 
 id = 'id_example' # str | 6-digit-long alphanumerical ID of the device to be adressed
 
 try:
@@ -224,14 +224,14 @@ Turns the summer ventilation mode on or off.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import seventilation_client
+from seventilation_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.SettingsApi(swagger_client.ApiClient(configuration))
-body = swagger_client.SettingsSummermodeBody() # SettingsSummermodeBody | 
+api_instance = seventilation_client.SettingsApi(seventilation_client.ApiClient(configuration))
+body = seventilation_client.SettingsSummermodeBody() # SettingsSummermodeBody | 
 id = 'id_example' # str | 6-digit-long alphanumerical ID of the device to be adressed
 
 try:
@@ -275,14 +275,14 @@ Either humidity or co2 or both values can be submitted affecting just the chosen
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import seventilation_client
+from seventilation_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.SettingsApi(swagger_client.ApiClient(configuration))
-body = swagger_client.SettingsThresholdsBody() # SettingsThresholdsBody | 
+api_instance = seventilation_client.SettingsApi(seventilation_client.ApiClient(configuration))
+body = seventilation_client.SettingsThresholdsBody() # SettingsThresholdsBody | 
 id = 'id_example' # str | 6-digit-long alphanumerical ID of the device to be adressed
 
 try:

@@ -1,4 +1,4 @@
-# swagger_client.DevicesApi
+# seventilation_client.DevicesApi
 
 All URIs are relative to *https://api.sec-smart.app/v1*
 
@@ -19,13 +19,13 @@ Returns an array filled with shortened device objects consisting of type, id and
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import seventilation_client
+from seventilation_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.DevicesApi(swagger_client.ApiClient(configuration))
+api_instance = seventilation_client.DevicesApi(seventilation_client.ApiClient(configuration))
 
 try:
     # Returns an object array of all your registered devices.
@@ -64,13 +64,13 @@ Returns a device object with the URL-encoded device ID if you are associated wit
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import seventilation_client
+from seventilation_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.DevicesApi(swagger_client.ApiClient(configuration))
+api_instance = seventilation_client.DevicesApi(seventilation_client.ApiClient(configuration))
 id = 'id_example' # str | 6-digit-long alphanumerical ID of the device to be adressed
 
 try:
@@ -113,14 +113,14 @@ Set a free choseable name for your device.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import seventilation_client
+from seventilation_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.DevicesApi(swagger_client.ApiClient(configuration))
-body = swagger_client.IdNameBody() # IdNameBody | 
+api_instance = seventilation_client.DevicesApi(seventilation_client.ApiClient(configuration))
+body = seventilation_client.IdNameBody() # IdNameBody | 
 id = 'id_example' # str | 6-digit-long alphanumerical ID of the device to be adressed
 
 try:

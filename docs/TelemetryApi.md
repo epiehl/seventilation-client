@@ -1,4 +1,4 @@
-# swagger_client.TelemetryApi
+# seventilation_client.TelemetryApi
 
 All URIs are relative to *https://api.sec-smart.app/v1*
 
@@ -17,13 +17,13 @@ Returns the device subobject telemetry for the URL-encoded device ID.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import seventilation_client
+from seventilation_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.TelemetryApi(swagger_client.ApiClient(configuration))
+api_instance = seventilation_client.TelemetryApi(seventilation_client.ApiClient(configuration))
 id = 'id_example' # str | 6-digit-long alphanumerical ID of the device to be adressed
 
 try:

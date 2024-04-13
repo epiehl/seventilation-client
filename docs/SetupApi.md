@@ -1,4 +1,4 @@
-# swagger_client.SetupApi
+# seventilation_client.SetupApi
 
 All URIs are relative to *https://api.sec-smart.app/v1*
 
@@ -23,14 +23,14 @@ Set up the assignment what kind of boost mode shall be used in the particular ar
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import seventilation_client
+from seventilation_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.SetupApi(swagger_client.ApiClient(configuration))
-body = swagger_client.SetupAreasBody() # SetupAreasBody | 
+api_instance = seventilation_client.SetupApi(seventilation_client.ApiClient(configuration))
+body = seventilation_client.SetupAreasBody() # SetupAreasBody | 
 id = 'id_example' # str | 6-digit-long alphanumerical ID of the device to be adressed
 
 try:
@@ -74,14 +74,14 @@ Perform a factory reset of the SEC Smart System.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import seventilation_client
+from seventilation_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.SetupApi(swagger_client.ApiClient(configuration))
-body = swagger_client.SetupFactoryresetBody() # SetupFactoryresetBody | 
+api_instance = seventilation_client.SetupApi(seventilation_client.ApiClient(configuration))
+body = seventilation_client.SetupFactoryresetBody() # SetupFactoryresetBody | 
 id = 'id_example' # str | 6-digit-long alphanumerical ID of the device to be adressed
 
 try:
@@ -125,13 +125,13 @@ Returns the device subobject setup for the URL-encoded device ID.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import seventilation_client
+from seventilation_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.SetupApi(swagger_client.ApiClient(configuration))
+api_instance = seventilation_client.SetupApi(seventilation_client.ApiClient(configuration))
 id = 'id_example' # str | 6-digit-long alphanumerical ID of the device to be adressed
 
 try:
@@ -174,14 +174,14 @@ Set up the configuration for the analog input.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import seventilation_client
+from seventilation_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.SetupApi(swagger_client.ApiClient(configuration))
-body = swagger_client.SetupInputaiBody() # SetupInputaiBody | 
+api_instance = seventilation_client.SetupApi(seventilation_client.ApiClient(configuration))
+body = seventilation_client.SetupInputaiBody() # SetupInputaiBody | 
 id = 'id_example' # str | 6-digit-long alphanumerical ID of the device to be adressed
 
 try:
@@ -225,14 +225,14 @@ Set up the configuration for the digital input.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import seventilation_client
+from seventilation_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.SetupApi(swagger_client.ApiClient(configuration))
-body = swagger_client.SetupInputdiBody() # SetupInputdiBody | 
+api_instance = seventilation_client.SetupApi(seventilation_client.ApiClient(configuration))
+body = seventilation_client.SetupInputdiBody() # SetupInputdiBody | 
 id = 'id_example' # str | 6-digit-long alphanumerical ID of the device to be adressed
 
 try:
@@ -276,14 +276,14 @@ Set up the configuration for the digital output.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import seventilation_client
+from seventilation_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.SetupApi(swagger_client.ApiClient(configuration))
-body = swagger_client.SetupOutputdoBody() # SetupOutputdoBody | 
+api_instance = seventilation_client.SetupApi(seventilation_client.ApiClient(configuration))
+body = seventilation_client.SetupOutputdoBody() # SetupOutputdoBody | 
 id = 'id_example' # str | 6-digit-long alphanumerical ID of the device to be adressed
 
 try:
@@ -327,14 +327,14 @@ Set up the assignment what systems are installed in the particular areas.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import seventilation_client
+from seventilation_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.SetupApi(swagger_client.ApiClient(configuration))
-body = swagger_client.SetupSystemsBody() # SetupSystemsBody | 
+api_instance = seventilation_client.SetupApi(seventilation_client.ApiClient(configuration))
+body = seventilation_client.SetupSystemsBody() # SetupSystemsBody | 
 id = 'id_example' # str | 6-digit-long alphanumerical ID of the device to be adressed
 
 try:
