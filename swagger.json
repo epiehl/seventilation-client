@@ -75,7 +75,7 @@
                       "type": {
                         "type": "string"
                       },
-                      "id": {
+                      "deviceid": {
                         "type": "string"
                       },
                       "name": {
@@ -86,12 +86,12 @@
                   "example": [
                     {
                       "type": "device",
-                      "id": "1A2B3C",
+                      "deviceid": "1A2B3C",
                       "name": "Family"
                     },
                     {
                       "type": "device",
-                      "id": "2B3C4D",
+                      "deviceid": "2B3C4D",
                       "name": "Penthouse"
                     }
                   ]
@@ -1480,8 +1480,9 @@
   "components": {
     "securitySchemes": {
       "myTokenScheme": {
-        "type": "http",
-        "scheme": "bearer",
+        "type": "apiKey",
+        "in": "header",
+        "name": "Authorization",
         "bearerFormat": "JWT"
       }
     },

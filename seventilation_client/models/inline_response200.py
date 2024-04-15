@@ -29,26 +29,26 @@ class InlineResponse200(object):
     """
     swagger_types = {
         'type': 'str',
-        'id': 'str',
+        'deviceid': 'str',
         'name': 'str'
     }
 
     attribute_map = {
         'type': 'type',
-        'id': 'id',
+        'deviceid': 'deviceid',
         'name': 'name'
     }
 
-    def __init__(self, type=None, id=None, name=None):  # noqa: E501
+    def __init__(self, type=None, deviceid=None, name=None):  # noqa: E501
         """InlineResponse200 - a model defined in Swagger"""  # noqa: E501
         self._type = None
-        self._id = None
+        self._deviceid = None
         self._name = None
         self.discriminator = None
         if type is not None:
             self.type = type
-        if id is not None:
-            self.id = id
+        if deviceid is not None:
+            self.deviceid = deviceid
         if name is not None:
             self.name = name
 
@@ -74,25 +74,25 @@ class InlineResponse200(object):
         self._type = type
 
     @property
-    def id(self):
-        """Gets the id of this InlineResponse200.  # noqa: E501
+    def deviceid(self):
+        """Gets the deviceid of this InlineResponse200.  # noqa: E501
 
 
-        :return: The id of this InlineResponse200.  # noqa: E501
+        :return: The deviceid of this InlineResponse200.  # noqa: E501
         :rtype: str
         """
-        return self._id
+        return self._deviceid
 
-    @id.setter
-    def id(self, id):
-        """Sets the id of this InlineResponse200.
+    @deviceid.setter
+    def deviceid(self, deviceid):
+        """Sets the deviceid of this InlineResponse200.
 
 
-        :param id: The id of this InlineResponse200.  # noqa: E501
+        :param deviceid: The deviceid of this InlineResponse200.  # noqa: E501
         :type: str
         """
 
-        self._id = id
+        self._deviceid = deviceid
 
     @property
     def name(self):

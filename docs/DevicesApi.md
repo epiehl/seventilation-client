@@ -23,6 +23,11 @@ import seventilation_client
 from seventilation_client.rest import ApiException
 from pprint import pprint
 
+# Configure API key authorization: myTokenScheme
+configuration = seventilation_client.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = seventilation_client.DevicesApi(seventilation_client.ApiClient(configuration))
@@ -68,6 +73,11 @@ import seventilation_client
 from seventilation_client.rest import ApiException
 from pprint import pprint
 
+# Configure API key authorization: myTokenScheme
+configuration = seventilation_client.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = seventilation_client.DevicesApi(seventilation_client.ApiClient(configuration))
@@ -117,6 +127,11 @@ import seventilation_client
 from seventilation_client.rest import ApiException
 from pprint import pprint
 
+# Configure API key authorization: myTokenScheme
+configuration = seventilation_client.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = seventilation_client.DevicesApi(seventilation_client.ApiClient(configuration))

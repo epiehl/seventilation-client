@@ -51,6 +51,11 @@ import seventilation_client
 from seventilation_client.rest import ApiException
 from pprint import pprint
 
+# Configure API key authorization: myTokenScheme
+configuration = seventilation_client.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = seventilation_client.AreasApi(seventilation_client.ApiClient(configuration))
@@ -63,6 +68,11 @@ try:
 except ApiException as e:
     print("Exception when calling AreasApi->devices_id_areas_get: %s\n" % e)
 
+# Configure API key authorization: myTokenScheme
+configuration = seventilation_client.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = seventilation_client.AreasApi(seventilation_client.ApiClient(configuration))
@@ -76,6 +86,11 @@ try:
 except ApiException as e:
     print("Exception when calling AreasApi->devices_id_areas_label_put: %s\n" % e)
 
+# Configure API key authorization: myTokenScheme
+configuration = seventilation_client.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = seventilation_client.AreasApi(seventilation_client.ApiClient(configuration))
@@ -89,6 +104,11 @@ try:
 except ApiException as e:
     print("Exception when calling AreasApi->devices_id_areas_mode_put: %s\n" % e)
 
+# Configure API key authorization: myTokenScheme
+configuration = seventilation_client.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = seventilation_client.AreasApi(seventilation_client.ApiClient(configuration))
@@ -210,6 +230,9 @@ Class | Method | HTTP request | Description
 
 ## myTokenScheme
 
+- **Type**: API key
+- **API key parameter name**: Authorization
+- **Location**: HTTP header
 
 
 ## Author
